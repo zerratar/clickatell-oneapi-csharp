@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clickatell.OneApi.Sdk", "src\Clickatell.OneApi.Sdk\Clickatell.OneApi.Sdk.csproj", "{7413F603-72F3-4B4C-BFE2-CCDB1DD30576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clickatell.OneApi.Sdk.NET45", "src\Clickatell.OneApi.Sdk.NET45\Clickatell.OneApi.Sdk.NET45.csproj", "{61067FC7-D1B1-46D9-A42B-BA93E2D63567}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Clickatell.OneApi.Sdk.Shared", "src\Clickatell.OneApi.Sdk.Shared\Clickatell.OneApi.Sdk.Shared.shproj", "{92522A6E-9B15-4C12-8FCB-4C7AE76BE4D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0579DA6F-FD20-4DF2-9A10-72AB4369C634}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clickatell.OneApi.Sdk.Tests", "src\Clickatell.OneApi.Sdk.Tests\Clickatell.OneApi.Sdk.Tests.csproj", "{10689D2F-83EF-4129-A344-A1DB50D0653C}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Clickatell.OneApi.Sdk.Shared\Clickatell.OneApi.Sdk.Shared.projitems*{61067fc7-d1b1-46d9-a42b-ba93e2d63567}*SharedItemsImports = 4
+		src\Clickatell.OneApi.Sdk.Shared\Clickatell.OneApi.Sdk.Shared.projitems*{7413f603-72f3-4b4c-bfe2-ccdb1dd30576}*SharedItemsImports = 5
+		src\Clickatell.OneApi.Sdk.Shared\Clickatell.OneApi.Sdk.Shared.projitems*{92522a6e-9b15-4c12-8fcb-4c7ae76be4d2}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7413F603-72F3-4B4C-BFE2-CCDB1DD30576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7413F603-72F3-4B4C-BFE2-CCDB1DD30576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7413F603-72F3-4B4C-BFE2-CCDB1DD30576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7413F603-72F3-4B4C-BFE2-CCDB1DD30576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61067FC7-D1B1-46D9-A42B-BA93E2D63567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61067FC7-D1B1-46D9-A42B-BA93E2D63567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61067FC7-D1B1-46D9-A42B-BA93E2D63567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61067FC7-D1B1-46D9-A42B-BA93E2D63567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10689D2F-83EF-4129-A344-A1DB50D0653C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10689D2F-83EF-4129-A344-A1DB50D0653C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10689D2F-83EF-4129-A344-A1DB50D0653C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10689D2F-83EF-4129-A344-A1DB50D0653C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10689D2F-83EF-4129-A344-A1DB50D0653C} = {0579DA6F-FD20-4DF2-9A10-72AB4369C634}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA7215D4-D1C4-4328-BF84-101DC7361BD1}
+	EndGlobalSection
+EndGlobal

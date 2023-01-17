@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>92522a6e-9b15-4c12-8fcb-4c7ae76be4d2</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Clickatell.OneApi.Sdk</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)IOneApiClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IOneApiClientSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Channels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Requests\IContent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Requests\IImageAndTextContent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Requests\IRecipent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Requests\ITextContent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\MediaUtilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OneApiWebClient.cs" />
+    <Compile Include="..\Clickatell.OneApi.Sdk.Shared\Models\Requests\IBinaryContent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Responses\ApiResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\ErrorCodes.cs" />
+  </ItemGroup>
+</Project>
